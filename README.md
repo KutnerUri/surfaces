@@ -38,7 +38,7 @@ CSS provides several operators that could potentially be used to manage elevatio
 - `counter()`: CSS counters could potentially track the nesting level of HTML elements. Despite finding a way to use counters for this purpose, they are not useful in this context as they can only be used in the `content` property.
 - `attr()`: HTML attributes, like `data-layer=5`, could theoretically be used for styling surfaces and then reading their value in CSS. However, the `attr()` function has limited support for most properties, other than `content`.
 
-````scss
+```scss
 .surface {
   // ❌ doesn't work
   --layer: calc(1 + var(--layer, 0));
