@@ -1,0 +1,34 @@
+$transparentBorder: hsla(0, 0%, 90%, 0.612);
+$transparentBg: rgba(0, 97, 194, 0.15);
+
+.surface {
+  
+}
+
+// .surface {
+//   //   --depth: var(--depth, 0) + 1
+//   counter-increment: depth;
+
+//   &::after {
+//     content: "";
+//     counter-increment: depth -1;
+//   }
+// }
+
+.card {
+  //   display: inline-block;
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 1px solid $transparentBorder;
+  border-radius: 4px;
+  background: $transparentBg;
+}
+
+// .depthPresenter {
+//   // display: inline-block;
+//   // background: blue;
+//   // padding: 0 0 0 calc((var(--depth, 100)) * 1px);
+//   &::after {
+//     content: counter(depth);
+//   }
+// }
