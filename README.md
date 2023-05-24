@@ -71,10 +71,6 @@ While this approach is valid and improves performance, it lacks advanced flexibi
 
 While these native solutions provided valuable insights, they were not sufficient to fully address the challenge at hand. The need for a more flexible and efficient solution led to the creation of this project.
 
-## Show Your Support
-
-If you find this project interesting or helpful, consider giving a star to this [repository](https://github.com/kutneruri/automatic-elevation-surfaces). Your support encourages me to keep exploring and improving. Enjoy the journey with us!
-
 ## Further Reading
 
 Interested in learning more about elevation in design systems? Here are some resources that discuss how different design systems handle elevation, especially in light and dark modes:
@@ -86,3 +82,7 @@ Interested in learning more about elevation in design systems? Here are some res
 1. [**Apple Developer Documentation**](https://developer.apple.com/design/human-interface-guidelines/dark-mode): Provides guidelines for implementing dark mode in their Human Interface Guidelines.
 
 These resources provide a variety of approaches to handling elevation, offering valuable insights for your own projects.
+
+## Show Your Support
+
+If you find this project interesting or helpful, consider giving a star to this [repository](https://github.com/kutneruri/automatic-elevation-surfaces). Your support encourages me to keep exploring and improving. Enjoy the journey with us!
