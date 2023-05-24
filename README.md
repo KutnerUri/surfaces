@@ -55,6 +55,7 @@ CSS provides several operators that could potentially be used to manage elevatio
   // ❌ doesn't work
   background: hsl(0, 0%, calc(20% + attr(data-layer) * 10%));
 }
+```
 
 ### Deeply Nested CSS Selectors
 
